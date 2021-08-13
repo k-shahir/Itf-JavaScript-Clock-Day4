@@ -18,4 +18,13 @@ function setRotation(element, rotationRatio) {
   element.style.setProperty('--rotation', rotationRatio * 360)
 }
 
+
+
+
+
 setClock()
+
+function clockFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
