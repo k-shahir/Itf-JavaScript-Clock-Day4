@@ -19,12 +19,11 @@ function setRotation(element, rotationRatio) {
 }
 
 
-
-
-
-setClock()
-
 function clockFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
+
+
+setClock()
+
